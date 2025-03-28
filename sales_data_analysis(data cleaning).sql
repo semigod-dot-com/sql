@@ -1,3 +1,5 @@
+-- https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
+
 create table sales_clean_data
 like supermarket_sales;
 
