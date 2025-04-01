@@ -10,7 +10,7 @@ ALTER TABLE sales_clean_data
 RENAME TO sales_clean ;
 
 select * from sales_clean;
--- CHANGED THE NAME OF THE COLUMNS THAT HAD SPAES AND PUT IN '_'
+-- CHANGED THE NAME OF THE COLUMNS THAT HAD SPACES AND PUT IN '_'
 ALTER TABLE sales_clean
 RENAME COLUMN `Invoice ID` TO Invoice_ID,
 RENAME COLUMN `Customer type` TO Customer_type,
